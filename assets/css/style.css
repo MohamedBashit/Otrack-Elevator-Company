@@ -1,0 +1,147 @@
+.font-1
+{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.font-2
+{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.cont-main
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-login 
+{
+    background: cornflowerblue;
+    height: 100vh;
+}
+.cont-login form 
+{
+    width: 70%;
+    border-radius: 20px;
+}
+
+.cont-main form 
+{
+    border: 2px solid #222;
+    padding: 25px;
+    background: rgb(45 48 59 / 50%);
+    border-radius: 15px;
+}
+
+@media (min-width: 576px) {
+    .offset-sm-3 {
+        margin-left: 25%;
+        margin-right: 25%;
+        max-width: 100%;
+    }
+}
+.alert{
+    margin-bottom: 0;
+}
+@media (max-width:468px){
+    .alert{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+@media (max-width:868px){
+    .alert{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+}
+@media (max-width:1200px){
+    .alert{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+label
+{
+    color: white;
+    font-weight: bold;
+    display: flex;
+}
+.p-5{
+    padding: 1rem!important;
+}
+.cont-main form select 
+{
+    background: #2da9a3;
+    color: #fff;
+    border: 1px solid #222;
+}
+
+.bg-base
+{
+    background: #2da9a3;
+}
+
+
+@media only screen and (max-width: 700px) 
+{
+    .cont-main
+    {
+        height: auto;
+    }
+}
+
+.card-body{
+    text-align: start;
+}
+.card{
+    margin-bottom:20px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+#navbarNavDropdown ul{
+    text-align: start;
+}
+.dropdown-menu{
+    text-align: start;
+}
+.btn-dash{
+    display: flex;
+}
+.lab-dash{
+    color: #9b9b9b;
+}
+.table td{
+    padding: 10px 5px !important;
+}
+.table td .btn-info{
+    padding: 1px 4px;
+    font-size: 17px;
+}
+
+@media (min-width: 898px){
+    .table thead tr, .table tbody tr, .table tbody tr a{
+        font-size: 15px !important;
+    }
+}
+@media (min-width: 598px){
+    .table thead tr, .table tbody tr, .table tbody tr a{
+        font-size: 10px ;
+        padding: 2px 3px;
+    }
+    
+}
+@media (min-width: 298px){
+    .table thead tr, .table tbody tr, .table tbody tr a, .table td .btn-info{
+        font-size: 6px ;
+        padding: 2px 3px;
+    }
+    .table thead tr th, .table tbody tr td{
+        padding: 1px 2px;
+    }
+}
